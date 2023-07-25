@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(78, 163, 188 );
+
+}
+
+/* Header */
+.header{
+    background-color: #4EADBC;
+    padding: 20px 10px;
+    color: black;
+
+}
+.header a{
+    padding: 15px 10px;
+}
+
+.header a:hover {
+    background-color: #b3b169;
+    color: black;
+  }
+  
+/*@media screen and (max-width: 500px) {*/
+    .header a {
+      background-color: aquamarine;
+      display: block;
+      text-align: center;
+    }
+  }
+.Youtube {
+    float: center;
+    margin-left: 100%;
+}
+
+.iframe-container{
+    margin-left: center;
+    width: 550px;
+    height: 250px;
+}
+
+@media screen and (max-width: 500px) {
+    .iframe-container{
+        margin-left: 20%;
+        width: 550px;
+        height: 250px;
+    }
+  }
+
+
+
+/*DataWrapper*/
+.data-wrapper-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Simple Button And Links*/
+.Button {
+    background-color: #4EADBC; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .Button:hover {
+    background-color: #2d0160; /* Green */
+    color: white;
+  }
+.ScrollStory{
+    background-image: url("https://images5.alphacoders.com/524/524073.jpg");
+    background-attachment: fixed;
+    background-size: 100;
+    height: fit-content;
+}
+.box{
+    background-color: aliceblue;
+    text-align: center;
+    opacity: 60%;
+    width: 250px;
+    height: fit-content;
+    margin: auto;
+}
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/others/oth-9/oth925.cur), auto !important;} /* End https://www.cursors-4u.com */
